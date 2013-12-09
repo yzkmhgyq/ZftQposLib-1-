@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1339EDA2180549ED00B07203 /* libZftQposLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1339EDA1180549ED00B07203 /* libZftQposLib.a */; };
+		349E5BA117AA4DBC000FD12E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BA017AA4DBC000FD12E /* UIKit.framework */; };
+		349E5BA317AA4DBC000FD12E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BA217AA4DBC000FD12E /* Foundation.framework */; };
+		349E5BA517AA4DBC000FD12E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BA417AA4DBC000FD12E /* CoreGraphics.framework */; };
+		349E5BAB17AA4DBC000FD12E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BA917AA4DBC000FD12E /* InfoPlist.strings */; };
+		349E5BAD17AA4DBC000FD12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5BAC17AA4DBC000FD12E /* main.m */; };
+		349E5BB117AA4DBC000FD12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5BB017AA4DBC000FD12E /* AppDelegate.m */; };
+		349E5BB317AA4DBC000FD12E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BB217AA4DBC000FD12E /* Default.png */; };
+		349E5BB517AA4DBC000FD12E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BB417AA4DBC000FD12E /* Default@2x.png */; };
+		349E5BB717AA4DBC000FD12E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BB617AA4DBC000FD12E /* Default-568h@2x.png */; };
+		349E5BBA17AA4DBC000FD12E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5BB917AA4DBC000FD12E /* ViewController.m */; };
+		349E5BBD17AA4DBC000FD12E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BBB17AA4DBC000FD12E /* ViewController_iPhone.xib */; };
+		349E5BC017AA4DBC000FD12E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349E5BBE17AA4DBC000FD12E /* ViewController_iPad.xib */; };
+		349E5BCF17AA4E03000FD12E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BCE17AA4E03000FD12E /* QuartzCore.framework */; };
+		349E5BD117AA4E0B000FD12E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BD017AA4E0B000FD12E /* SystemConfiguration.framework */; };
+		349E5BD317AA4E1C000FD12E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BD217AA4E1C000FD12E /* AddressBook.framework */; };
+		349E5BD517AA4E28000FD12E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BD417AA4E28000FD12E /* CoreLocation.framework */; };
+		349E5BD717AA4E30000FD12E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BD617AA4E30000FD12E /* Security.framework */; };
+		349E5BD917AA4E37000FD12E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BD817AA4E37000FD12E /* AudioToolbox.framework */; };
+		349E5BDB17AA4E40000FD12E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BDA17AA4E40000FD12E /* AVFoundation.framework */; };
+		349E5BDF17AA51B3000FD12E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5BDE17AA51B3000FD12E /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1339EDA1180549ED00B07203 /* libZftQposLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZftQposLib.a; sourceTree = "<group>"; };
+		341512F917AA550E006497D3 /* libZftQposLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZftQposLib.a; path = ../lib/libZftQposLib.a; sourceTree = "<group>"; };
+		349E5B9D17AA4DBC000FD12E /* ZftQposLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZftQposLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E5BA017AA4DBC000FD12E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		349E5BA217AA4DBC000FD12E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		349E5BA417AA4DBC000FD12E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		349E5BA817AA4DBC000FD12E /* ZftQposLibTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZftQposLibTest-Info.plist"; sourceTree = "<group>"; };
+		349E5BAA17AA4DBC000FD12E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		349E5BAC17AA4DBC000FD12E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		349E5BAE17AA4DBC000FD12E /* ZftQposLibTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZftQposLibTest-Prefix.pch"; sourceTree = "<group>"; };
+		349E5BAF17AA4DBC000FD12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		349E5BB017AA4DBC000FD12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		349E5BB217AA4DBC000FD12E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		349E5BB417AA4DBC000FD12E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		349E5BB617AA4DBC000FD12E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		349E5BB817AA4DBC000FD12E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		349E5BB917AA4DBC000FD12E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		349E5BBC17AA4DBC000FD12E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		349E5BBF17AA4DBC000FD12E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		349E5BCE17AA4E03000FD12E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		349E5BD017AA4E0B000FD12E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		349E5BD217AA4E1C000FD12E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		349E5BD417AA4E28000FD12E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		349E5BD617AA4E30000FD12E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		349E5BD817AA4E37000FD12E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		349E5BDA17AA4E40000FD12E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		349E5BDE17AA51B3000FD12E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349E5B9A17AA4DBC000FD12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E5BDF17AA51B3000FD12E /* MediaPlayer.framework in Frameworks */,
+				349E5BDB17AA4E40000FD12E /* AVFoundation.framework in Frameworks */,
+				349E5BD917AA4E37000FD12E /* AudioToolbox.framework in Frameworks */,
+				1339EDA2180549ED00B07203 /* libZftQposLib.a in Frameworks */,
+				349E5BD717AA4E30000FD12E /* Security.framework in Frameworks */,
+				349E5BD517AA4E28000FD12E /* CoreLocation.framework in Frameworks */,
+				349E5BD317AA4E1C000FD12E /* AddressBook.framework in Frameworks */,
+				349E5BD117AA4E0B000FD12E /* SystemConfiguration.framework in Frameworks */,
+				349E5BCF17AA4E03000FD12E /* QuartzCore.framework in Frameworks */,
+				349E5BA117AA4DBC000FD12E /* UIKit.framework in Frameworks */,
+				349E5BA317AA4DBC000FD12E /* Foundation.framework in Frameworks */,
+				349E5BA517AA4DBC000FD12E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349E5B9417AA4DBC000FD12E = {
+			isa = PBXGroup;
+			children = (
+				1339EDA1180549ED00B07203 /* libZftQposLib.a */,
+				349E5BA617AA4DBC000FD12E /* ZftQposLibTest */,
+				349E5B9F17AA4DBC000FD12E /* Frameworks */,
+				349E5B9E17AA4DBC000FD12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		349E5B9E17AA4DBC000FD12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349E5B9D17AA4DBC000FD12E /* ZftQposLibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349E5B9F17AA4DBC000FD12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349E5BDE17AA51B3000FD12E /* MediaPlayer.framework */,
+				349E5BDA17AA4E40000FD12E /* AVFoundation.framework */,
+				349E5BD817AA4E37000FD12E /* AudioToolbox.framework */,
+				349E5BD617AA4E30000FD12E /* Security.framework */,
+				349E5BD417AA4E28000FD12E /* CoreLocation.framework */,
+				349E5BD217AA4E1C000FD12E /* AddressBook.framework */,
+				349E5BD017AA4E0B000FD12E /* SystemConfiguration.framework */,
+				349E5BCE17AA4E03000FD12E /* QuartzCore.framework */,
+				349E5BA017AA4DBC000FD12E /* UIKit.framework */,
+				349E5BA217AA4DBC000FD12E /* Foundation.framework */,
+				349E5BA417AA4DBC000FD12E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349E5BA617AA4DBC000FD12E /* ZftQposLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				349E5BAF17AA4DBC000FD12E /* AppDelegate.h */,
+				349E5BB017AA4DBC000FD12E /* AppDelegate.m */,
+				349E5BB817AA4DBC000FD12E /* ViewController.h */,
+				349E5BB917AA4DBC000FD12E /* ViewController.m */,
+				349E5BBB17AA4DBC000FD12E /* ViewController_iPhone.xib */,
+				349E5BBE17AA4DBC000FD12E /* ViewController_iPad.xib */,
+				349E5BA717AA4DBC000FD12E /* Supporting Files */,
+			);
+			path = ZftQposLibTest;
+			sourceTree = "<group>";
+		};
+		349E5BA717AA4DBC000FD12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341512F917AA550E006497D3 /* libZftQposLib.a */,
+				349E5BA817AA4DBC000FD12E /* ZftQposLibTest-Info.plist */,
+				349E5BA917AA4DBC000FD12E /* InfoPlist.strings */,
+				349E5BAC17AA4DBC000FD12E /* main.m */,
+				349E5BAE17AA4DBC000FD12E /* ZftQposLibTest-Prefix.pch */,
+				349E5BB217AA4DBC000FD12E /* Default.png */,
+				349E5BB417AA4DBC000FD12E /* Default@2x.png */,
+				349E5BB617AA4DBC000FD12E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349E5B9C17AA4DBC000FD12E /* ZftQposLibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E5BC317AA4DBC000FD12E /* Build configuration list for PBXNativeTarget "ZftQposLibTest" */;
+			buildPhases = (
+				349E5B9917AA4DBC000FD12E /* Sources */,
+				349E5B9A17AA4DBC000FD12E /* Frameworks */,
+				349E5B9B17AA4DBC000FD12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZftQposLibTest;
+			productName = ZftQposLibTest;
+			productReference = 349E5B9D17AA4DBC000FD12E /* ZftQposLibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349E5B9517AA4DBC000FD12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rjb;
+			};
+			buildConfigurationList = 349E5B9817AA4DBC000FD12E /* Build configuration list for PBXProject "ZftQposLibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 349E5B9417AA4DBC000FD12E;
+			productRefGroup = 349E5B9E17AA4DBC000FD12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				349E5B9C17AA4DBC000FD12E /* ZftQposLibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		349E5B9B17AA4DBC000FD12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E5BAB17AA4DBC000FD12E /* InfoPlist.strings in Resources */,
+				349E5BB317AA4DBC000FD12E /* Default.png in Resources */,
+				349E5BB517AA4DBC000FD12E /* Default@2x.png in Resources */,
+				349E5BB717AA4DBC000FD12E /* Default-568h@2x.png in Resources */,
+				349E5BBD17AA4DBC000FD12E /* ViewController_iPhone.xib in Resources */,
+				349E5BC017AA4DBC000FD12E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349E5B9917AA4DBC000FD12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E5BAD17AA4DBC000FD12E /* main.m in Sources */,
+				349E5BB117AA4DBC000FD12E /* AppDelegate.m in Sources */,
+				349E5BBA17AA4DBC000FD12E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		349E5BA917AA4DBC000FD12E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E5BAA17AA4DBC000FD12E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		349E5BBB17AA4DBC000FD12E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E5BBC17AA4DBC000FD12E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		349E5BBE17AA4DBC000FD12E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				349E5BBF17AA4DBC000FD12E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		349E5BC117AA4DBC000FD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349E5BC217AA4DBC000FD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349E5BC417AA4DBC000FD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZftQposLibTest/ZftQposLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ZftQposLibTest/ZftQposLibTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "/Users/yzk/Desktop/ZftQposLib(1)/ZftQposLibTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		349E5BC517AA4DBC000FD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZftQposLibTest/ZftQposLibTest-Prefix.pch";
+				INFOPLIST_FILE = "ZftQposLibTest/ZftQposLibTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "/Users/yzk/Desktop/ZftQposLib(1)/ZftQposLibTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349E5B9817AA4DBC000FD12E /* Build configuration list for PBXProject "ZftQposLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E5BC117AA4DBC000FD12E /* Debug */,
+				349E5BC217AA4DBC000FD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E5BC317AA4DBC000FD12E /* Build configuration list for PBXNativeTarget "ZftQposLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E5BC417AA4DBC000FD12E /* Debug */,
+				349E5BC517AA4DBC000FD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349E5B9517AA4DBC000FD12E /* Project object */;
+}

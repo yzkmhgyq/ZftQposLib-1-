@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E9947A17C1DBBE009F323A /* Utity.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E9947817C1DBB2009F323A /* Utity.m */; };
+		349E5AC817AA072B000FD12E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 349E5AC717AA072B000FD12E /* Foundation.framework */; };
+		349E5ACF17AA072B000FD12E /* ZftQposLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5ACE17AA072B000FD12E /* ZftQposLib.m */; };
+		349E5B8C17AA0DAB000FD12E /* QFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B7D17AA0DAB000FD12E /* QFDevice.m */; };
+		349E5B8D17AA0DAB000FD12E /* QFDeviceEncoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B7E17AA0DAB000FD12E /* QFDeviceEncoder.c */; };
+		349E5B8E17AA0DAB000FD12E /* QFDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8117AA0DAB000FD12E /* QFDeviceManager.m */; };
+		349E5B8F17AA0DAB000FD12E /* QFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8317AA0DAB000FD12E /* QFError.m */; };
+		349E5B9017AA0DAB000FD12E /* QFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8517AA0DAB000FD12E /* QFKit.m */; };
+		349E5B9117AA0DAB000FD12E /* QFSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8717AA0DAB000FD12E /* QFSecurity.m */; };
+		349E5B9217AA0DAB000FD12E /* QFTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8917AA0DAB000FD12E /* QFTransaction.m */; };
+		349E5B9317AA0DAB000FD12E /* QFTransactionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E5B8B17AA0DAB000FD12E /* QFTransactionConfig.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349E5BCA17AA4DBF000FD12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349E5BC617AA4DBC000FD12E /* ZftQposLibTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 349E5B9D17AA4DBC000FD12E;
+			remoteInfo = ZftQposLibTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		349E5AC217AA072B000FD12E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13E9947717C1DBB2009F323A /* Utity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utity.h; sourceTree = "<group>"; };
+		13E9947817C1DBB2009F323A /* Utity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utity.m; sourceTree = "<group>"; };
+		349E5AC417AA072B000FD12E /* libZftQposLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZftQposLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		349E5AC717AA072B000FD12E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		349E5ACB17AA072B000FD12E /* ZftQposLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZftQposLib-Prefix.pch"; sourceTree = "<group>"; };
+		349E5ACE17AA072B000FD12E /* ZftQposLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZftQposLib.m; sourceTree = "<group>"; };
+		349E5ADE17AA07F8000FD12E /* ZftQposLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZftQposLib.h; path = inc/ZftQposLib.h; sourceTree = SOURCE_ROOT; };
+		349E5B7C17AA0DAB000FD12E /* QFDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDevice.h; sourceTree = "<group>"; };
+		349E5B7D17AA0DAB000FD12E /* QFDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDevice.m; sourceTree = "<group>"; };
+		349E5B7E17AA0DAB000FD12E /* QFDeviceEncoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QFDeviceEncoder.c; sourceTree = "<group>"; };
+		349E5B7F17AA0DAB000FD12E /* QFDeviceEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDeviceEncoder.h; sourceTree = "<group>"; };
+		349E5B8017AA0DAB000FD12E /* QFDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDeviceManager.h; sourceTree = "<group>"; };
+		349E5B8117AA0DAB000FD12E /* QFDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDeviceManager.m; sourceTree = "<group>"; };
+		349E5B8217AA0DAB000FD12E /* QFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFError.h; sourceTree = "<group>"; };
+		349E5B8317AA0DAB000FD12E /* QFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFError.m; sourceTree = "<group>"; };
+		349E5B8417AA0DAB000FD12E /* QFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFKit.h; sourceTree = "<group>"; };
+		349E5B8517AA0DAB000FD12E /* QFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFKit.m; sourceTree = "<group>"; };
+		349E5B8617AA0DAB000FD12E /* QFSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFSecurity.h; sourceTree = "<group>"; };
+		349E5B8717AA0DAB000FD12E /* QFSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFSecurity.m; sourceTree = "<group>"; };
+		349E5B8817AA0DAB000FD12E /* QFTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTransaction.h; sourceTree = "<group>"; };
+		349E5B8917AA0DAB000FD12E /* QFTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTransaction.m; sourceTree = "<group>"; };
+		349E5B8A17AA0DAB000FD12E /* QFTransactionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTransactionConfig.h; sourceTree = "<group>"; };
+		349E5B8B17AA0DAB000FD12E /* QFTransactionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTransactionConfig.m; sourceTree = "<group>"; };
+		349E5BC617AA4DBC000FD12E /* ZftQposLibTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZftQposLibTest.xcodeproj; path = ZftQposLibTest/ZftQposLibTest.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		349E5AC117AA072B000FD12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349E5AC817AA072B000FD12E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349E5ABB17AA072B000FD12E = {
+			isa = PBXGroup;
+			children = (
+				349E5AC917AA072B000FD12E /* ZftQposLib */,
+				349E5AC617AA072B000FD12E /* Frameworks */,
+				349E5AC517AA072B000FD12E /* Products */,
+				349E5BC617AA4DBC000FD12E /* ZftQposLibTest.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		349E5AC517AA072B000FD12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349E5AC417AA072B000FD12E /* libZftQposLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		349E5AC617AA072B000FD12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				349E5AC717AA072B000FD12E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		349E5AC917AA072B000FD12E /* ZftQposLib */ = {
+			isa = PBXGroup;
+			children = (
+				13E9947717C1DBB2009F323A /* Utity.h */,
+				13E9947817C1DBB2009F323A /* Utity.m */,
+				349E5B7C17AA0DAB000FD12E /* QFDevice.h */,
+				349E5B7D17AA0DAB000FD12E /* QFDevice.m */,
+				349E5B7E17AA0DAB000FD12E /* QFDeviceEncoder.c */,
+				349E5B7F17AA0DAB000FD12E /* QFDeviceEncoder.h */,
+				349E5B8017AA0DAB000FD12E /* QFDeviceManager.h */,
+				349E5B8117AA0DAB000FD12E /* QFDeviceManager.m */,
+				349E5B8217AA0DAB000FD12E /* QFError.h */,
+				349E5B8317AA0DAB000FD12E /* QFError.m */,
+				349E5B8417AA0DAB000FD12E /* QFKit.h */,
+				349E5B8517AA0DAB000FD12E /* QFKit.m */,
+				349E5B8617AA0DAB000FD12E /* QFSecurity.h */,
+				349E5B8717AA0DAB000FD12E /* QFSecurity.m */,
+				349E5B8817AA0DAB000FD12E /* QFTransaction.h */,
+				349E5B8917AA0DAB000FD12E /* QFTransaction.m */,
+				349E5B8A17AA0DAB000FD12E /* QFTransactionConfig.h */,
+				349E5B8B17AA0DAB000FD12E /* QFTransactionConfig.m */,
+				349E5ADE17AA07F8000FD12E /* ZftQposLib.h */,
+				349E5ACE17AA072B000FD12E /* ZftQposLib.m */,
+				349E5ACA17AA072B000FD12E /* Supporting Files */,
+			);
+			path = ZftQposLib;
+			sourceTree = "<group>";
+		};
+		349E5ACA17AA072B000FD12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				349E5ACB17AA072B000FD12E /* ZftQposLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		349E5BC717AA4DBC000FD12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				349E5BCB17AA4DBF000FD12E /* ZftQposLibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		349E5AC317AA072B000FD12E /* ZftQposLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E5AD217AA072B000FD12E /* Build configuration list for PBXNativeTarget "ZftQposLib" */;
+			buildPhases = (
+				349E5AC017AA072B000FD12E /* Sources */,
+				349E5AC117AA072B000FD12E /* Frameworks */,
+				349E5AC217AA072B000FD12E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZftQposLib;
+			productName = ZftQposLib;
+			productReference = 349E5AC417AA072B000FD12E /* libZftQposLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		349E5ABC17AA072B000FD12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = rjb;
+			};
+			buildConfigurationList = 349E5ABF17AA072B000FD12E /* Build configuration list for PBXProject "ZftQposLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 349E5ABB17AA072B000FD12E;
+			productRefGroup = 349E5AC517AA072B000FD12E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 349E5BC717AA4DBC000FD12E /* Products */;
+					ProjectRef = 349E5BC617AA4DBC000FD12E /* ZftQposLibTest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				349E5AC317AA072B000FD12E /* ZftQposLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		349E5BCB17AA4DBF000FD12E /* ZftQposLibTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ZftQposLibTest.app;
+			remoteRef = 349E5BCA17AA4DBF000FD12E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		349E5AC017AA072B000FD12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E9947A17C1DBBE009F323A /* Utity.m in Sources */,
+				349E5ACF17AA072B000FD12E /* ZftQposLib.m in Sources */,
+				349E5B8C17AA0DAB000FD12E /* QFDevice.m in Sources */,
+				349E5B8D17AA0DAB000FD12E /* QFDeviceEncoder.c in Sources */,
+				349E5B8E17AA0DAB000FD12E /* QFDeviceManager.m in Sources */,
+				349E5B8F17AA0DAB000FD12E /* QFError.m in Sources */,
+				349E5B9017AA0DAB000FD12E /* QFKit.m in Sources */,
+				349E5B9117AA0DAB000FD12E /* QFSecurity.m in Sources */,
+				349E5B9217AA0DAB000FD12E /* QFTransaction.m in Sources */,
+				349E5B9317AA0DAB000FD12E /* QFTransactionConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		349E5AD017AA072B000FD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		349E5AD117AA072B000FD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		349E5AD317AA072B000FD12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/ZftQposLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZftQposLib/ZftQposLib-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		349E5AD417AA072B000FD12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/ZftQposLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZftQposLib/ZftQposLib-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349E5ABF17AA072B000FD12E /* Build configuration list for PBXProject "ZftQposLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E5AD017AA072B000FD12E /* Debug */,
+				349E5AD117AA072B000FD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		349E5AD217AA072B000FD12E /* Build configuration list for PBXNativeTarget "ZftQposLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349E5AD317AA072B000FD12E /* Debug */,
+				349E5AD417AA072B000FD12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 349E5ABC17AA072B000FD12E /* Project object */;
+}
